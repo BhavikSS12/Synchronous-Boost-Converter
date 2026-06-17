@@ -154,7 +154,7 @@ $$N = \sqrt{\frac{33 \times 10^{-6}}{135 \times 10^{-9}}} \approx 15.6 \rightarr
 
 **Wire:** AWG 16 magnet wire — rated for RMS inductor current with acceptable temperature rise.
 
-![Wound Inductor](Images/inductor_wound.jpg)
+![Wound Inductor](Images/Inductor_wound.png)
 
 ---
 
