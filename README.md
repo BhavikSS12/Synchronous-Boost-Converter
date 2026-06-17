@@ -14,7 +14,7 @@ A fully designed and built **synchronous boost converter** that steps up a 5V in
 - **PWM control** via SG3525A with open-loop and closed-loop modes selectable via switch
 - **High-side + low-side gate drive** using IR2110 with bootstrap circuit
 - **Auxiliary 12V control supply** generated from 5V input using MC34063 — eliminates startup deadlock
-- **Hand-wound toroidal inductor** (33 µH, 26 turns) with energy-based core selection
+- **Hand-wound toroidal inductor** (33 µH, 19 turns) with energy-based core selection
 
 ---
 
@@ -147,13 +147,13 @@ $$N = \sqrt{\frac{L}{A_L}}$$
 
 For the selected core with AL ≈ 135 nH/turn²:
 
-$$N = \sqrt{\frac{33 \times 10^{-6}}{135 \times 10^{-9}}} \approx 15.6 \rightarrow \textbf{26 turns (with margin)}$$
+$$N = \sqrt{\frac{33 \times 10^{-6}}{135 \times 10^{-9}}} \approx 15.6 \rightarrow \textbf{19 turns (with margin)}$$
 
-26 turns were wound to ensure the inductance target is met with headroom, accounting for winding geometry and practical AL variation.
+19 turns were wound to ensure the inductance target is met with headroom, accounting for winding geometry and practical AL variation.
 
 **Wire:** AWG 16 magnet wire — rated for RMS inductor current with acceptable temperature rise.
 
-![Wound Inductor](images/inductor_wound.jpg)
+![Wound Inductor](Images/inductor_wound.jpg)
 
 ---
 
