@@ -251,9 +251,15 @@ A mode-select switch routes either signal to the SG3525A control input:
 
 See [`results/measurements.md`](results/measurements.md) for full tabulated results.
 
-> **Note:** Results will be populated after hardware bring-up is complete.
+> **Note:** Results will be populated after once tested with proper testing setup.
 
-![Test Setup](images/test_setup.jpg)
+![Temporary testing setup](Results/Input_source.jpeg)
+
+![Output Voltage](Results/output_voltage.jpeg)
+
+![Gate Driver Output](Results/gate_driver_output.jpeg)
+
+![Test Setup](images/test_setup.jpeg)
 
 ---
 
