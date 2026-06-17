@@ -2,7 +2,7 @@
 
 A fully designed and built **synchronous boost converter** that steps up a 5V input to an adjustable 10–20V output at up to 20W. The design implements both **open-loop** and **closed-loop** control modes on a single hardware platform, with a dedicated MC34063-based auxiliary supply that solves the classic 5V bootstrap deadlock.
 
-![Final Board](images/Boost_top.png)
+![Final Board](Images/Boost_top.png)
 
 ---
 
@@ -295,7 +295,7 @@ Boost-converter-5v-20v/
 │   ├── EAGLECAD BRD file
 │   ├── Gerber files
 │   └── Drill fies
-├── images/
+├── Images/
 │   ├── board_top.jpg
 │   ├── board_bottom.jpg
 │   ├── inductor_wound.jpg
