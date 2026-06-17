@@ -30,6 +30,7 @@ Boosts 5V → ~12V to power the SG3525A and IR2110. This solves the startup dead
 - IR2110 drives both low-side (M1) and floating high-side (M2) N-channel MOSFETs via bootstrap
 - Two IRF3205 MOSFETs perform synchronous energy transfer from inductor to output
 
+![Syatem Architecture](Images/SystemArchitecture.png)
 ---
 
 ## Key Design Parameters
