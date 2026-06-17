@@ -2,7 +2,7 @@
 
 A fully designed and built **synchronous boost converter** that steps up a 5V input to an adjustable 10–20V output at up to 20W. The design implements both **open-loop** and **closed-loop** control modes on a single hardware platform, with a dedicated MC34063-based auxiliary supply that solves the classic 5V bootstrap deadlock.
 
-![Final Board](images/boostConverterPCB.png)
+![Final Board](images/Boost_top.png)
 
 ---
 
@@ -203,22 +203,9 @@ A mode-select switch routes either signal to the SG3525A control input:
 
 | File | Description |
 |---|---|
-| `schematics/full_schematic.pdf` | Complete circuit schematic |
-| `schematics/auxiliary_supply_mc34063.png` | MC34063 5V → 12V auxiliary stage |
-| `schematics/main_boost_stage.png` | SG3525A + IR2110 + IRF3205 power stage |
-
----
-
-## Simulation
-
-Simulation files (LTspice / Proteus) are in `/simulation/`. Key waveforms verified:
-
-- SG3525A gate output and dead time
-- IR2110 HO/LO signals and bootstrap behaviour
-- Switch node voltage (0V ↔ Vout)
-- Inductor current ripple
-
-![Switch Node Waveform](images/waveform_switch_node.jpg)
+| `schematic and PCB layout/full_schematic.pdf` | Complete circuit schematic |
+| `schematic and PCB layout/auxiliary_supply_mc34063.png` | MC34063 5V → 12V auxiliary stage |
+| `schematic and PCB layout/main_boost_stage.png` | SG3525A + IR2110 + IRF3205 power stage |
 
 ---
 
@@ -291,23 +278,23 @@ See [`results/measurements.md`](results/measurements.md) for full tabulated resu
 ## Repo Structure
 
 ```
-boost-converter-5v-20v/
+Boost-converter-5v-20v/
 ├── README.md
-├── LICENSE
 ├── docs/
 │   ├── design_report.pdf
 │   ├── calculations.md
 │   └── energy_core_selection.md
-├── schematics/
+├── schematic and PCB layout/
 │   ├── full_schematic.pdf
 │   ├── auxiliary_supply_mc34063.png
 │   └── main_boost_stage.png
-├── simulation/
-│   ├── boost_converter.asc
-│   └── waveforms/
-├── hardware/
-│   ├── bom.csv
-│   └── pcb_layout.png
+├── DesignFiles/
+│   ├── BOM
+│   ├── EAGLECAD Project file
+│   ├── EAGLECAD schematic file
+│   ├── EAGLECAD BRD file
+│   ├── Gerber files
+│   └── Drill fies
 ├── images/
 │   ├── board_top.jpg
 │   ├── board_bottom.jpg
@@ -331,7 +318,3 @@ boost-converter-5v-20v/
 - Mohan, Undeland & Robbins — *Power Electronics: Converters, Applications, and Design*
 
 ---
-
-## License
-
-MIT License — see [LICENSE](LICENSE) for details.

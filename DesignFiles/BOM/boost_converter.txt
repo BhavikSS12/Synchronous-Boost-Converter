@@ -1,0 +1,37 @@
+Partlist exported from C:/Users/BHAVIK/Documents/EAGLE/projects/PE_boost_converter/boost_converter.sch at 28-04-2026 23:22
+
+Qty Value            Device           Package                   Parts                Description               
+1                    GSH15            GSH15                     F1                   FUSE HOLDER               
+1   0.47             R-EU_0207/10     0207/10                   R18                  RESISTOR, European symbol 
+1   1.2k             R-EU_0207/10     0207/10                   R21                  RESISTOR, European symbol 
+3   10               R-EU_0207/10     0207/10                   R10, R12, R13        RESISTOR, European symbol 
+4   100              R-EU_0207/10     0207/10                   R4, R6, R8, R9       RESISTOR, European symbol 
+1   100k             R-EU_0207/10     0207/10                   R2                   RESISTOR, European symbol 
+1   100k             TRIM_EU-S64W     S64W                      R15                  POTENTIOMETER             
+2   100nF            C2,5-3           C2.5-3                    C5, C7               CAPACITOR                 
+3   100uF            C2.5/5           C2.5-5                    C10, C13, C14        CAPACITOR                 
+5   10k              R-EU_0207/10     0207/10                   R1, R3, R5, R11, R20 RESISTOR, European symbol 
+2   10k              R-EU_0309/10     0309/10                   R16, R17             RESISTOR, European symbol 
+2   10nF             C2,5-3           C2.5-3                    C1, C4               CAPACITOR                 
+1   10uF             C2.5/5           C2.5-5                    C11                  CAPACITOR                 
+1   180              R-EU_0207/10     0207/10                   R19                  RESISTOR, European symbol 
+1   1N4007           1N4004           DO41-10                   D5                   DIODE                     
+2   1N4148DO35-10    1N4148DO35-10    DO35-10                   D1, D2               DIODE                     
+1   1N5819           1N4933           DO41-10                   D4                   DIODE                     
+1   1k               R-EU_0207/10     0207/10                   R7                   RESISTOR, European symbol 
+1   1nF              C2,5-3           C2.5-3                    C2                   CAPACITOR                 
+1   20k              TRIM_EU-S64W     S64W                      R14                  POTENTIOMETER             
+2   282837-2         282837-2         TE_282837-2               P1, P2               Check availability        
+1   4.7uF            C2.5/5           C2.5-5                    C3                   CAPACITOR                 
+1   470nF            C2,5-3           C2.5-3                    C6                   CAPACITOR                 
+2   47uF             C2.5/5           C2.5-5                    C8, C9               CAPACITOR                 
+1   680pF            C2,5-3           C2.5-3                    C12                  CAPACITOR                 
+1   74HC04N          74HC04N          DIP254P762X420-14         U3                   Check availability        
+1   CDRH105RNP-4R7NC CDRH105RNP-4R7NC IND_CDRH105RNP-4R7NC      L2                   Check availability        
+1   IR2110           IR2110           DIP762W45P254L2019H533Q14 U1                   Check availability        
+2   IRF3205          IRF3205          TO254P1041X444X2933-3     Q1, Q2               Check availability        
+1   MC34063AD        MC34063AD        SO08                      IC1                  Check availability        
+1   SFT830D          SFT830D          SFT830D                   L1                   INDUCTOR                  
+1   SG3525AN         SG3525AN         DIP254P762X510-16         U2                   Check availability        
+1   TL36PO           TL36PO           TL3XPO                    S2                   TINY SWITCH ON - ON       
+1   UF4003           UF4003           DO41-10                   D3                   DIODE                     

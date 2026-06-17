@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2026-05-03T16:14:33Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "boost_converter"
+        },
+        "Owner": "Bhavik Somvanshi <bhavik.somvanshi23@spit.ac.in>",
+        "Size": {
+            "X": 65.300034,
+            "Y": 81.126013
+        }
+    }
+}
